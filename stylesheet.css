@@ -24,11 +24,11 @@ h1{
   font-size: 30px;
 }
 ul {
-  margin-left: 1300px;
+  margin-left: 1260px;
 }
 li {
   font-size: 23px;
-  margin-left: 56px;
+  margin-left: 46px;
 }
 li a{
   transition: transform 0.5s;
@@ -151,3 +151,292 @@ li a:hover{
 .section-About p{
   padding: 20px;
 }
+@media screen and (max-width: 600px) {
+
+  nav {
+    padding: 9px;
+    z-index: 1000;
+  }
+  .heading {  
+    background-size: 100% 100%;
+    height: 481px;
+  }
+ 
+  .section-About h1 {
+    margin-left: 200px;
+  }
+  .section-About p {
+    padding: 3px;
+  }
+  .Project {
+    display: inline-block;
+    margin-left: 110px;
+  }
+  .texts {
+    max-width:200px;
+    padding-top: 210px;
+    margin-left: 340px;
+  }
+  .texts h3 {
+    font-size: 14px;
+    font-weight: 40;
+  }
+  
+  .texts h1 {
+    font-size: 35px;
+    font-weight: 50;
+    margin: -1px 0;
+  }
+  nav,
+ul,
+h1,
+li {
+  display: flex;
+}
+h1 {
+  font-size: 26px;
+}
+ul {
+  
+  margin-left: 232.5px;
+}
+li {
+  padding: 3px;
+  font-size: 15px;
+  margin-left: 7.1px;
+  margin-top: 5px;
+}
+#section-Project {
+  color: rgb(245, 245, 245);
+  font-size: 41px;
+  margin-top: 5%;
+  margin-left: 10px; 
+}
+.section-About h1 {
+    margin-left: 140px;
+  }
+  .section-About p {
+    padding: 1px;
+    margin-left: -20%;
+  }
+  .section-About {
+    margin-top: -1%;
+    padding: 1px;
+  }
+.layer{
+  width: 300px;
+  height: 600px;
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  overflow: visible;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px;
+  text-align: center;
+  font-size: 14px;
+  transition: height 0.5s;
+}
+.layer h3{
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.layer a{
+  margin-top: 20px;
+  color: #000000;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 60px;
+  background: #ffffff;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+}
+}
+@media screen and (max-width: 425px) {
+nav {
+    padding: 9px;
+    z-index: 1000;
+  }
+  .heading {  
+    background-size: 100% 100%;
+    height: 481px;
+  }
+  .section-About h1 {
+    margin-left: 120px;
+  }
+  .section-About p {
+    padding: 1px;
+  }
+  .Project {
+    display: inline-block;
+    margin-left: 30px;
+  }
+  .texts {
+    max-width:200px;
+    padding-top: 240px;
+    margin-left: 265px;
+  }
+  .texts h3 {
+    font-size: 13px;
+    font-weight: 40;
+  }
+  
+  .texts h1 {
+    font-size: 20px;
+    font-weight: 30;
+    margin: -1px 0;
+  }
+  nav,
+ul,
+h1,
+li {
+  display: flex;
+}
+h1 {
+  font-size: 18px;
+}
+ul {
+  margin-left: 168.5px;
+}
+li {
+  font-size: 10px;
+  margin-left: 7.1px;
+  margin-top: 9px;
+}
+.section-About {
+  margin-top: -9%;
+  padding: 8px;
+}
+.section-About p {
+  margin-left: 1px;
+  
+}
+.layer{
+  width: 300px;
+  height: 600px;
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  overflow: visible;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px;
+  text-align: center;
+  font-size: 14px;
+  transition: height 0.5s;
+}
+.layer h3{
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.layer a{
+  margin-top: 20px;
+  color: #000000;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 60px;
+  background: #ffffff;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+}
+}
+@media screen and (max-width: 375px) {
+  nav,
+ul,
+h1,
+li {
+  display: flex;
+  z-index: 1000;
+}
+h1 {
+  font-size: 20px;
+}
+ul {
+  margin-left: 130px;
+}
+li {
+  font-size: 10px;
+  margin-left: 8px;
+  margin-top: 9px;
+}
+.texts {
+  max-width:200px;
+  padding-top: 220px;
+  margin-left: 240px;
+}
+.texts h3 {
+  font-size: 12px;
+  font-weight: 40;
+}
+
+.texts h1 {
+  font-size: 20px;
+  font-weight: 15;
+  margin: -1px 0;
+}
+.Project {
+  display: inline-block;
+  margin-left: 1px;
+  margin-top: 1px;
+}
+#section-Project {
+  color: rgb(245, 245, 245);
+  font-size: 41px;
+  margin-top: 2%;
+  margin-left: 10px; 
+}
+.section-About h1 {
+    margin-left: 140px;
+  }
+  .section-About p {
+    padding: 8px;
+  }
+  .section-About {
+    margin-top: -9%;
+    padding: 1px;
+  }
+  .layer{
+    width: 300px;
+    height: 600px;
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: visible;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 14px;
+    transition: height 0.5s;
+  }
+  .layer h3{
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  .layer a{
+    margin-top: 20px;
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    background: #ffffff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+  }
+}
+
