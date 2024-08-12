@@ -3,11 +3,9 @@
     padding: 0%;
     margin: 0%;
     color: rgb(255, 255, 255);
-    font-family: "Anton SC", sans-serif;
+    font-family: "Poppins", sans-serif;
     overflow-y: hidden;
 }
-
-
 .video{
     position: absolute;
     bottom: 0;
@@ -44,7 +42,7 @@ form .submit{
 }
 .Contact{
     padding: 200px;
-    padding-left: 770px;
+    padding-left: 750px;
 }
 #send{
     font-size: 20px;
@@ -53,9 +51,11 @@ form .submit{
     margin: 19px;
 }
 .social-media{
-    margin-left: 130px; 
+    margin-left: 140px;
+    width: px;
 }
 .social-media a{
+    color: black;
     margin-left: 16px;
     display: inline-block;
     transition: transform 0.5s;
@@ -70,6 +70,181 @@ form .submit{
     font-size: larger;
     font-weight: 1000;
     color: #000000;
-    padding: 14px 180px;
-    
+    padding: 14px 170px; 
 }
+@media screen and (max-width:600px) {
+  .video{
+    overflow: hidden;
+    position: fixed;
+  }
+    form{
+        padding-top: 90px;
+        margin-left: 170px;
+    width: 330px;
+}
+form input,textarea{
+    
+  width:230px;
+  padding: 8px;
+  padding-top: 10px;
+  margin: 3px ;
+  margin-top: 5px;
+  font-size: 15px;
+}
+.Contact{
+    padding: 4px;
+    padding-left: 10px;
+}
+#send{
+    color: red;
+    font-size: 15px;
+}
+form .submit{
+    padding: 5px 15px;
+    font-size: 15px;
+    margin-top: 8px;
+    margin-left: 85px;
+}
+.social-media{
+    margin-left: 60px;
+}
+.Home
+{
+    font-size: larger;
+    font-weight: 1000;
+    color: #000000;
+    padding: 8px 91px; 
+}
+}
+@media screen and (max-width:425px) {
+    .video{
+      overflow: hidden;
+      position: fixed;
+    }
+      form{
+          padding-top: 90px;
+          margin-left: 80px;
+      width: 330px;
+  }
+  form input,textarea{
+      
+    width:230px;
+    padding: 8px;
+    padding-top: 10px;
+    margin: 3px ;
+    margin-top: 5px;
+    font-size: 15px;
+  }
+  .Contact{
+      padding: 4px;
+      padding-left: 10px;
+  }
+  #send{
+      color: red;
+      font-size: 15px;
+  }
+  form .submit{
+      padding: 5px 15px;
+      font-size: 15px;
+      margin-top: 8px;
+      margin-left: 85px;
+  }
+  .social-media{
+      margin-left: 60px;
+  }
+  .Home
+  {
+      font-size: larger;
+      font-weight: 1000;
+      color: #000000;
+      padding: 8px 91px; 
+  }
+  }
+  @media screen and (max-width:375px) {
+    .video{
+      overflow: hidden;
+      position: fixed;
+    }
+      form{
+          padding-top: 90px;
+          margin-left: 50px;
+      width: 270px;
+  }
+  form input,textarea{
+      
+    width:230px;
+    padding: 8px;
+    padding-top: 10px;
+    margin: 3px ;
+    margin-top: 5px;
+    font-size: 15px;
+  }
+  .Contact{
+      padding: 4px;
+      padding-left: 10px;
+  }
+  #send{
+      color: red;
+      font-size: 15px;
+  }
+  form .submit{
+      padding: 5px 15px;
+      font-size: 15px;
+      margin-top: 8px;
+      margin-left: 85px;
+  }
+  .social-media{
+      margin-left: 60px;
+  }
+  .Home
+  {
+      font-size: larger;
+      font-weight: 1000;
+      color: #000000;
+      padding: 8px 91px; 
+  }
+  }
+  @media screen and (max-width:320px) {
+    .video{
+      overflow: hidden;
+      position: fixed;
+    }
+      form{
+          padding-top: 90px;
+          margin-left: 25px;
+      width: 251px;
+  }
+  form input,textarea{
+      
+    width:230px;
+    padding: 8px;
+    padding-top: 10px;
+    margin: 3px ;
+    margin-top: 5px;
+    font-size: 15px;
+  }
+  .Contact{
+      padding: 4px;
+      padding-left: 10px;
+  }
+  #send{
+      color: red;
+      font-size: 13px;
+  }
+  form .submit{
+      padding: 5px 15px;
+      font-size: 15px;
+      margin-top: 8px;
+      margin-left: 85px;
+  }
+  .social-media{
+      margin-left: 60px;
+  }
+  .Home
+  {
+      font-size: larger;
+      font-weight: 1000;
+      color: #000000;
+      padding: 8px 91px; 
+  }
+  }

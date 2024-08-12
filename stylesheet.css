@@ -2,7 +2,7 @@
 * {
   padding: 0px;
   margin: 0px;
-  font-family: "Anton SC", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -11,7 +11,7 @@ body {
 nav {
   background-color: black;
   color: white;
-  padding: 30px;
+  padding: 22px;
   position: fixed;
 }
 nav,
@@ -28,7 +28,7 @@ ul {
 }
 li {
   font-size: 23px;
-  margin-left: 46px;
+  margin-left: 40px;
 }
 li a {
   transition: transform 0.5s;
@@ -50,8 +50,8 @@ li a:hover {
 }
 .texts {
   max-width: 600px;
-  padding-top: 330px;
-  margin-left: 1110px;
+  padding-top: 430px;
+  margin-left: 1200px;
 }
 .texts h3 {
   font-size: 32px;
@@ -152,7 +152,7 @@ li a:hover {
 }
 @media screen and (max-width: 600px) {
   nav {
-    padding: 9px;
+    padding: 5px;
     z-index: 1000;
   }
   .heading {
@@ -195,7 +195,7 @@ li a:hover {
     font-size: 26px;
   }
   ul {
-    margin-left: 232.5px;
+    margin-left: 223.5px;
   }
   li {
     padding: 3px;
@@ -256,7 +256,7 @@ li a:hover {
 }
 @media screen and (max-width: 425px) {
   nav {
-    padding: 9px;
+    padding: 5px;
     z-index: 1000;
   }
   .heading {
@@ -298,7 +298,7 @@ li a:hover {
     font-size: 18px;
   }
   ul {
-    margin-left: 168.5px;
+    margin-left: 158.9px;
   }
   li {
     font-size: 10px;
@@ -358,7 +358,7 @@ li a:hover {
     font-size: 20px;
   }
   ul {
-    margin-left: 110px;
+    margin-left: 100px;
   }
   li {
     font-size: 10px;
@@ -392,7 +392,7 @@ li a:hover {
     margin-left: 10px;
   }
   .section-About h1 {
-    margin-left: 140px;
+    margin-left: 110px;
   }
   .section-About p {
     padding: 8px;
@@ -447,7 +447,7 @@ li a:hover {
     font-size: 20px;
   }
   ul {
-    margin-left: 71px;
+    margin-left: 61px;
   }
   li {
     font-size: 10px;
